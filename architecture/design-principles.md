@@ -16,3 +16,14 @@ VPN → Firewall → Bastion → Internal Servers
 
 ### Forensic Resilience
 Logs are forwarded to a centralized logging server to prevent attackers from erasing operational history.
+
+
+## Controlled Administrative Path
+
+Remote Administrator  
+→ WireGuard VPN  
+→ pfSense Firewall  
+→ Bastion Host  
+→ Internal Servers  
+
+Internal systems do not accept direct connections from the VPN.
