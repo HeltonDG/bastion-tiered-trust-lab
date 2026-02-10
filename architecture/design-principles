@@ -1,4 +1,4 @@
-## Design Principles
+Design Principles
 
 ### Bastion-Governed Access
 All administrative traffic is required to traverse a hardened RHEL 9 bastion host. Internal servers are not directly reachable from the VPN.
